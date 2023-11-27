@@ -1,0 +1,67 @@
+body {
+    margin:0;
+    display: flex;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    /* adding abackground with picture  using background url*/
+    background-image: url("tebing.jpg");
+    background-size: cover;
+    /* to remove scrolling down bar on the side*/
+    overflow: hidden;
+    
+} 
+
+h1 {
+    /* make the text capital using text transform */
+    text-transform: uppercase;
+    /* make the text haev spaces */
+    letter-spacing: 4px;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.clock {
+    display: flex; 
+    transform: translateX(35px);/* it makes the text bersebelahan, atau horizontal  */
+
+}
+
+.clock div {
+    margin : 6px; /* it spaces between each div  */
+}
+
+.clock span {
+    width: 120px;
+    height: 90px;
+    background-color: rgb(127, 142, 151);
+    opacity: .8;
+    color: black;
+    display: flex;/* it makes the have big bangun   */
+    justify-content: center; /* it makes the zeros in each span placed in teh middle   */
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 3px 1cqw  rgb(68, 65, 65);
+}
+
+.clock .text {
+    height: 30px;
+    font-size: 15px;
+    font-weight: 900;
+    opacity: .8;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: rgb(60, 74, 83);
+}
+
+.clock #ampm {
+    bottom: 0;
+    transform: translateY(90px);
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgb(60, 74, 83);
+}

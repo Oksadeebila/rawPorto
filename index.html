@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/header.html" rel="stylesheet">
+  <link href="css/skil.html" rel="stylesheet">
+  <link href="css/container.html" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
+  <link rel="icon" href="assets/images/logow.png">
+  <title>Stay Updated hehehh</title>
+  <style>
+   
+    .header {
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 0;
+      padding-left: 25px;
+      padding-right: 25px;
+      border-bottom-style: solid;
+      border-width: 3px;
+      border-radius: 5px;
+    }
+
+    .left ul {
+      list-style: none;
+      display: flex;
+      gap: 40px;
+      padding-right: 20px;
+    }
+
+    .left a {
+      text-decoration: none;
+      color: black;
+      font-family: Segoe UI;
+      font-weight: 600;
+    }
+
+    .left a:hover {
+      color: rgb(114, 114, 114);
+    }
+
+    .peps {
+      margin-top: 40px;
+      color: rgb(105, 104, 104);
+      font-family: Arial;
+      font-size: 15px;
+      margin-left: 1px;
+      margin-bottom: 10px;
+    }
+
+    .right {
+      margin-top: 5px;
+    }
+
+    .money {
+      padding-left: 9px;
+      margin-top: 50px;
+  
+      }
+
+    .much {
+      font-size: 30px;
+      margin-top: 5px;
+      margin-bottom: 7px;
+      font-family: system-ui;
+      font-weight: bold;
+    }
+
+    .country {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      gap: 20px;
+    }
+    
+    .ghs {
+      margin-top: 0px;
+      margin-left: 3px;
+      font-family: Arial;
+      font-weight: 600;
+      font-size: 12px;
+      color: rgb(77, 77, 77);
+    }
+
+    .body {
+      padding: 15px;
+    }
+
+    .container {
+      display: grid; 
+      grid-template-columns: 330px 330px 330px 330px; 
+      gap: 15px;
+      margin-left: -12px;
+    }
+
+    .box {
+      padding: 14px;
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+    }
+
+
+
+    .box .boldbox {
+      font-weight: 600;
+      font-size: 15px;
+      font-family: Segoe Ui;
+      margin-top: 12px;
+      margin-bottom: 0px;
+      text-decoration: none;
+      color : rgb(250, 250, 250);
+      cursor: pointer;
+    }
+
+    .boldbox:hover {
+      color: rgb(238, 104, 122);
+      transition: color .15s;
+   
+
+    }
+
+    .box .flatbox {
+     font-size: 12px; color: rgb(187, 186, 185); font-family: Segoe UI; font-weight: 600; margin-top: 10px;
+    }
+
+    .container-image {
+      position:relative; top: 2px; width: 300px;  height: 150px; object-fit: cover;  object-position: top; border-radius: 12px;
+    }
+    .circle {
+      display: flex;
+      gap: 12px;
+    }
+
+    .add {
+      background-color: rgb(202, 200, 200);
+      height: 55px;
+      width: 55px;
+      border-radius: 50px;
+    }
+
+    .pic {
+      border-radius: 100px;
+      object-fit: cover;
+    }
+
+    /* Mobile Styles */
+@media only screen and (max-width: 400px){
+  .header {
+    padding-left: 15px;
+    padding-right: 1px;
+    
+  }
+  
+  .container {
+      display: grid; 
+       grid-template-columns: 160px 160px; 
+       grid-template-rows:200px 200px; 
+       gap: 15px;
+        padding: 0
+        
+      }
+
+      .left ul {
+      list-style: none;
+      display: flex;
+      margin-right: 1px;
+      gap: 20px;
+     
+    }
+
+    .left a {
+      text-decoration: none;
+      color: black;
+      font-family: Segoe UI;
+      font-weight: 600;
+      font-size: 15px;
+    }
+
+    .left a:hover {
+      color: rgb(114, 114, 114);
+    }
+
+
+      .container-image {
+      position:relative; 
+
+      top: 2px; 
+      width: 135px;  
+      height: 75px; 
+      object-fit: cover;  object-position: top; border-radius: 12px;
+    }
+
+      .box  {
+      padding: 12px;
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+    }
+
+
+    .box .boldbox {
+      font-weight: 600;
+      font-size: 12px;
+      font-family: Segoe Ui;
+      margin-top: 12px;
+      margin-bottom: 0px;
+      text-decoration: none;
+      color : rgb(250, 250, 250);
+      cursor: pointer;
+    }
+
+    .boldbox:hover {
+      color: rgb(238, 104, 122);
+      transition: color .15s;
+   
+
+    }
+
+    .box .flatbox {
+     font-size: 11px; color: rgb(187, 186, 185); font-family: Segoe UI; font-weight: 600; margin-top: 5px;
+    }
+
+    
+    }
+    
+  </style>
+</head>
+<body style="background-color: rgb(252, 251, 251);">
+  <div class="up">
+    <div class="header">
+      <div class="right">
+        <button style="border: none; background-color: rgb(250, 249, 249);">
+          <img src="assets/images/logow.png" width="35px">
+        </button>
+      </div>
+      <div class="left">
+        <ul>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">Project</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      
+    </div>
+    <div class="money">
+      <p class="peps">Hi Peps,</p>
+      <p class="much">I'm Oksa</p>
+      <div class="country">
+        <!-- <img src="/tryone/flag.jpg" width="20px" height="20px" style="border-radius: 50px; margin-left: 3px;"> -->
+        <p class="ghs">A front-end enthusiast who love to design beautiful apps</p>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="skill" style="display: flex; flex-direction: column; padding-left: 7px; padding-top: 50px; ">
+    <p style="padding-left: 4px; font-size: 14px; color: rgb(172, 171, 170); font-family: Segoe UI; margin-bottom: 2px;">Skill I have</p>
+    <div class="html-skill" >
+      <p class= "skilltext"style="font-size: small; position: relative; top: 10px; left: 10px;">85% HTML</p>
+      <img src="assets/images/htmlheh.svg" width="32%">
+    </div>
+    <div class="html-skill">
+      <p style="font-size: small; position: relative; top: 10px; left: 10px;">91% CSS</p>
+      <img src="assets/images/css.svg" width="32%">
+    </div>
+    <div class="html-skill">
+      <p style="font-size: small; position: relative; top: 10px; left: 10px;">28% Javascript</p>
+      <img src="assets/images/js.svg" width=32%">
+    </div>
+
+    <!-- <div class="friend">
+      <p style="padding-left:10px; font-size: 14px; color: rgb(172, 171, 170); font-family: Segoe UI; ">Your favorite people</p>
+      <div class="circle">
+        <div class="add">
+          <img class="" src="/tryone/images/heh.svg" width="30px" height="30px" style="padding: 12.5px;">
+        </div>
+        <div class="add">
+          <img class="pic" src="/heyyo.jpg" width="60px" height="60px" >
+          <img src="/tryone/flag.jpg" width="20px" height="20px" style="border-radius: 50px;position: relative; bottom: 20px; right: -40px;">
+        </div>
+        <div class="add">
+          <img class="pic" src="/thumbnails/ytb3.jpg" width="60px" height="60px" >
+          <img src="/tryone/flag.jpg" width="20px" height="20px" style="border-radius: 50px; position: relative; bottom: 20px; right: -40px;">
+        </div>
+      
+      </div>
+    </div>
+  </div> -->
+
+  <div class="body">
+    
+      <p style="display: flex; justify-content: flex-start; margin-right: 5px;
+       font-size: 14px; color: rgb(143, 142, 142); font-family: Segoe UI; ">Here is my projects</p>
+
+      <div class="container">
+        <div style="background-color: rgb(32, 32, 32);" class="box">
+          <div style="width: 300px;">
+            <img src="assets/images/projects/picOfCalc.png"  class= "container-image">
+          </div>
+          <a href= "#" class="boldbox">Calculator: The Cutest On Earth </a>
+          <p class="flatbox">I made it with html, css, and javascript. This is my first project.</p>
+        </div>
+
+        
+        
+        <div style="background-color: rgb(32, 32, 32);" class="box">
+          <div style="width: 300px; height: 110;">
+            <img src="assets/images/projects/digitalClock.png"  class="container-image">
+          </div>
+          <a href= "#" class="boldbox">Digital Clock : Minimalist digital clock </a>
+          <p class="flatbox">I made it with html, css, and javascript. This is my first project.</p>
+        </div>
+    </div>
+  </div>
+ 
+</body>
+</html>

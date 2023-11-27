@@ -1,0 +1,113 @@
+* { 
+    margin : 0;
+    padding : 0; 
+    box-sizing : border-box;
+
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(to right, pink, lightgreen);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+         font-family: "Font Digital";
+         src: url('assets/digital-7.regular.ttf');
+         }
+ 
+
+.calculator{
+    width : 300px;
+    height: 570px;
+    box-shadow: 4px  4px 30px rgb(102, 100, 100);
+    background-color: rgb(132, 179, 248);
+    border-radius: 29px; 
+}
+
+img {
+    transform: translate(20px, 10px);
+    height: 30px;
+    width: 50px;
+}
+
+.love {
+    height: 30px;
+    width: 50px;
+    background-color:  lightgreen;
+    flex: 0 0 25%;
+    margin : 6px;
+    width : 60px;
+    height: 52px;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 15px;
+    cursor: pointer;
+    color: rgb(255, 54, 88);
+
+}
+
+.lovee {
+    display:flex;
+    height: 70px;
+    width: 50px;
+    transform: translate(8px, -12px);
+}
+
+
+form input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 120px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    font-family: "Font Digital";
+    border: none;
+    border-radius: 12px; 
+    font-size: 3.5rem;
+    padding: 1rem;
+    color: rgb(255, 54, 88);;
+    background-color: rgb(255, 214, 214);
+    text-align: right;
+    pointer-events: none; /*makin the screen unclickable*/
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+
+button {
+    flex: 0 0 25%;
+    margin : 6px;
+    width : 60px;
+    height: 52px;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 15px;
+    cursor: pointer;
+    color: rgb(255, 54, 88);
+}
+
+.btn-clear {
+    background-color:  pink;
+    color: rgb(255, 54, 88);
+}
+
+.btn-equal {
+    background-color:  pink;
+}
+
+.btn-yellow {
+    background-color:  lightgreen;
+    color: rgb(255, 54, 88);
+}
+
